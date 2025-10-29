@@ -35,7 +35,8 @@ export default function Home() {
     setIsSending(true);
 
     try {
-      const response = await fetch('/api/chat', {
+      // const response = await fetch('/api/chat', {
+      const response = await fetch('/api/supabase-chat', {
         method: 'POST',
         body: JSON.stringify(userMsg),
         headers: { 'Content-Type': 'application/json' }
