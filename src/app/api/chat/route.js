@@ -1,7 +1,6 @@
 import { DataAPIClient } from "@datastax/astra-db-ts";
 import OpenAI from "openai";
 
-
 const {
     ASTRA_DB_NAMESPACE,
     ASTRA_DB_COLLECTION,
